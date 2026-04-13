@@ -146,6 +146,7 @@ Example:
 ```
 Enter the Income of Customer: 20
 Enter the Spending Score of Customer: 50
+
 ```
 
 ---
@@ -154,6 +155,7 @@ Enter the Spending Score of Customer: 50
 
 ```
 Medium Income , Medium Spending Customer.
+
 ```
 
 ---
