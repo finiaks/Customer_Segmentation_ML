@@ -1,18 +1,121 @@
-# Customer Segmentation using K-Means
+# Customer Segmentation using K-Means (Machine Learning)
 
-## Description
+## 📌 Project Overview
 
-This project groups customers based on their income and spending behavior using K-Means clustering.
+This project performs **customer segmentation** using the K-Means clustering algorithm. It groups customers based on their **annual income** and **spending score** to help businesses understand customer behavior and target them effectively.
 
-## Features
+---
 
-- Data visualization
-- Elbow method to find optimal clusters
-- Customer grouping
+## 🚀 Features
 
-## Tech Used
+* K-Means clustering implementation
+* Elbow method to find optimal number of clusters
+* Feature scaling using StandardScaler
+* Data visualization with cluster centroids
+* Customer segmentation analysis
+* Prediction system for new customer input
 
-- Python
-- Pandas
-- Matplotlib
-- Scikit-learn
+---
+
+## 🧠 Concepts Used
+
+* Unsupervised Learning
+* K-Means Clustering
+* Feature Scaling
+* Elbow Method
+* Data Visualization
+* Business Interpretation of Data
+
+---
+
+## 📂 Project Structure
+
+customer-segmentation-ml/
+│
+├── data/
+│   ├── customers.csv  #input data
+│   └── output.csv
+│
+├── model/
+│   ├── model.pkl        # Saved KMeans model
+│   ├── scaler.pkl       # Saved scaler
+│ 
+├── src/
+│   ├── main.py          # Training and clustering
+│   ├── predict.py       # Predict cluster for new input
+│ 
+├── requirements.txt
+└── README.md
+
+---
+
+## 📊 How It Works
+
+1. Load customer dataset
+2. Scale features for fair comparison
+3. Apply K-Means clustering
+4. Find optimal clusters using Elbow method
+5. Visualize clusters and centroids
+6. Save trained model
+7. Predict cluster for new customer input
+
+---
+
+## 🎯 Customer Segments Identified
+
+* 💎 Premium Customers (High income, high spending)
+* 💰 Saver Customers (High income, low spending)
+* 📉 Budget Customers (Low income, low spending)
+* 🛒 Impulsive Buyers (Low income, high spending)
+* ⚖️ Average Customers (Medium income, medium spending)
+
+---
+
+## 🧪 Example Prediction
+
+Input:
+Income = 20
+Spending Score = 50
+
+Output:
+Medium Income, Medium Spending Customer
+
+---
+
+## ⚠️ Important Notes
+
+* Model works best within the dataset range
+* Clustering does not guarantee exact classification
+* Results are based on similarity (distance)
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+---
+
+## 📈 Future Improvements
+
+* Add more features (Age, Gender)
+* Improve dataset size
+* Build web app using Streamlit
+* Deploy model online
+
+---
+
+## 💡 Conclusion
+
+This project demonstrates how machine learning can be used to group customers and generate valuable business insights.
+
+---
+
+## 👨‍💻 Author
+
+Akshay Prakash
+
