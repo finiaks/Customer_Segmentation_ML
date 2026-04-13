@@ -33,17 +33,17 @@ This project performs **customer segmentation** using the K-Means clustering alg
 customer-segmentation-ml/
 │
 ├── data/
-│   ├── customers.csv  #input data
-│   └── output.csv
+│   ├── customers.csv        # Input data
+│   └── output.csv           # Clustered output
 │
 ├── model/
-│   ├── model.pkl        # Saved KMeans model
-│   ├── scaler.pkl       # Saved scaler
-│ 
+│   ├── model.pkl            # Saved KMeans model
+│   └── scaler.pkl           # Saved scaler
+│
 ├── src/
-│   ├── main.py          # Training and clustering
-│   ├── predict.py       # Predict cluster for new input
-│ 
+│   ├── main.py              # Training and clustering
+│   └── predict.py           # Predict cluster for new input
+│
 ├── requirements.txt
 └── README.md
 
