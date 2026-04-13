@@ -156,6 +156,13 @@ Medium Income , Medium Spending Customer.
 
 ---
 
+## 📸 Output Screenshots
+
+![Elbow Method](<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/f11f71b7-0866-48cb-afde-22df2249fc9a" />)
+![Clusters](<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/db6310f2-7dd8-4a75-bf6b-a17e387a3998" />)
+
+---
+
 ## 📈 Future Improvements
 
 * Add more features (Age, Gender)
