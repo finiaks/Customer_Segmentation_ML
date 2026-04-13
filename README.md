@@ -100,6 +100,62 @@ Medium Income, Medium Spending Customer
 
 ---
 
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+
+```bash
+cd customer-segmentation-ml
+git clone https://github.com/finiaks/Customer-Segmentation-ML.git
+
+```
+
+---
+
+### 2️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 3️⃣ Run the main program (training + clustering)
+
+```bash
+cd src
+python main.py
+```
+
+---
+
+### 4️⃣ Run prediction for new customer
+
+```bash
+python predict_cust.py
+```
+
+---
+
+### 5️⃣ Enter input when prompted
+
+Example:
+
+```
+Enter the Income of Customer: 20
+Enter the Spending Score of Customer: 50
+```
+
+---
+
+### ✅ Output
+
+```
+Medium Income , Medium Spending Customer.
+```
+
+---
+
 ## 📈 Future Improvements
 
 * Add more features (Age, Gender)
