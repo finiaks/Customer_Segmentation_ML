@@ -29,7 +29,7 @@ This project performs **customer segmentation** using the K-Means clustering alg
 ---
 
 ## 📂 Project Structure
-
+```
 customer-segmentation-ml/
 │
 ├── data/
@@ -46,7 +46,7 @@ customer-segmentation-ml/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 📊 How It Works
